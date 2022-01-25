@@ -1,0 +1,28 @@
+.button {
+  display: block;
+  font-weight: $fw-bold;
+  line-height: 2;
+  color: $color-granite-grey;
+  text-align: center;
+  text-decoration: none;
+  background-color: $color-snow;
+  border: 1px solid $color-granite-grey;
+  border-radius: 50rem;
+
+    &--big {
+       padding: 5px 60px;
+    }
+    &--large {
+        font-size: 10px;
+        padding: 5px 40px;
+    }
+    &--medium {
+
+        font-size: 10px;
+        padding: 5px 20px;
+    }
+    &--small {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+}

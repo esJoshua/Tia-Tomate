@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -9,7 +8,7 @@
     <!-- Google Fonts Integration -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap" rel="stylesheet">
   <!-- Font awesome Integration -->
   <script src="https://kit.fontawesome.com/91fb0a136b.js" crossorigin="anonymous"></script>
   <!-- Boostrap css Integration -->
@@ -20,11 +19,82 @@
     <title>Tia Tomate</title>
 </head>
 <body>
+  <header class="header">
+    <img src="assets/img/logo_header.png" width="30px" height="30px" alt="tomate" class="header__logo" />
+  </header>
+  <section class="hero">
+    <h1 class="title"> 
+      De nuestro cariño <br/>
+      <span class="title__capitalize">A TU MESA</span>
+    </h1>
+  </section>
+  <section class="description">
+    <img
+      src="assets/img/about-1.png"
+      class="description__img"
+      alt="Tomates organicos"
+      width="150px" height="80px"
+    />
+    <h3 class="description__title">Tomates 100% orgánicos</h3>
+    <p class="description__text">
+      En tía tomate estamos comprometidos con tu salud y la de tu familia, de
+      modo que probarás tomates ricos y sin saber artificial.
+      <br />
+      Para darle vida a nuestros productos usamos materias primas orgánicas y
+      que estén en completo equilibrio con la naturaleza. Así que al comprar
+      cualquier tipo de tomate con nosotros te asegurarás de que comerás mejor
+      calidad de tomates limachinos.
+    </p>
+  </section>
+  <section class="description description--white">
+    <img
+      src="assets/img/about-2.png"
+      alt="tomates Limaches"
+      class="description__img-2"
+      width="150px" height="80px"
+    />
+    <h3 class="description__title description__title--black">Desde limache con amor</h3>
+    <p class="description__text description__text--black">
+      Los tomates que estás a punto de comprar son nacidos y criados en una de
+      las mejores zonas para la producción de tomates en Chile. El proceso que
+      conlleva criar estos tomates toma alrededor de tres meses de mucho
+      cariño y cuidados. Los tomates toman todos los nutrientes de esta
+      hermosa tierra para que luego tú los disfrutes en cualquier ocasión.
+    </p>
+  </section>
+  <section class="us-container title">
+    <p class="title__capitalize">NOSOTROS</p>
+  </section>
+  <section class="owners">
+    <img src="assets/img/about-3.png" width="70px" height="80px" alt="Javiera Kunstmann" class="owners__img" />
+    <p class="description__title description__title--grey">Javiera Kuntsman</p>
+    <p class="description__text description__text--grey">
+      Javiera es la orgullosa duela de Tía Tomate. Nacida y criada en Limache
+      se siente tan a gusto aquí como los tomates que cocecha. Ella es la
+      encargada administrativa de Tía Tomate y estará muy a gusto que la
+      contactes para probar la mejor calidad de tomates de todo Limache.
+      Javiera y su marido llevan más de 15 años en el rubro ofreciendo la
+      mejor calidad en tomates y desde el 2015 comenzaron con la producción de
+      tomates orgánicos limachinos.
+    </p>
+    <img src="assets/img/about-4.png" width="70px" height="80px" alt="Roberto Pacheco" class="owners__img" />
+    <p class="description__title description__title--grey">Roberto Pacheco</p>
+    <p class="description__text description__text--grey">
+      Roberto es el marido de Javiera. Él es el encargado de darle vida a los
+      tomates, usando su vasta experiencia en la agricultura ha sabido
+      seleccionar las mejores cepas de tomates para su cría y cosecha.
+    </p>
+  </section>
+  <section class="buy">
+      <p class="title--buy">¿Tomates para tu negocio?</p> 
+      <button class="button button--big">CLICK AQUÍ</button>
+                 
+  </section>
+  <footer class="footer">
+      <img src="assets/img/logo_footer.png" width= "130px" height="60px" class="footer__logo"alt="tomate">
+  </footer>
 
     
-
-
-
     <!-- Boostrap Bundle Js Integration -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

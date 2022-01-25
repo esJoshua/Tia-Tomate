@@ -1,0 +1,10 @@
+
+.footer{
+    text-align: center;
+    background-color: $color-granite-grey;
+      &__logo {
+        width: 130px;
+        height: auto;
+        margin: 3rem 0 3rem 0;
+      }
+}

@@ -2,9 +2,6 @@
 
 //Abstract
 @import "abstract/variables";
-@import "abstract/functions";
-@import "abstract/mixins";
-
 
 //Base
 @import "base/reset";
@@ -12,17 +9,18 @@
 
 //Components
 @import "components/buttons";
-@import "components/links";
-@import "components/pagination";
-@import "components/thumbnails";
 
 //Layout
-@import "layout/navbar";
-@import "layout/article";
+@import "layout/header";
+@import "layout/hero";
+@import "layout/title";
+@import "layout/description";
+@import "layout/us";
+@import "layout/owners";
+@import "layout/buy";
 @import "layout/footer";
 
 //Pages
-@import "pages/contac";
 @import "pages/home";
 
 
