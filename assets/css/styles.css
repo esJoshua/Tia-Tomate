@@ -15,7 +15,7 @@
   color: #686963;
   text-align: center;
   text-decoration: none;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   border: 1px solid #686963;
   border-radius: 50rem;
 }
@@ -60,7 +60,7 @@
 }
 
 .description {
-  background-color: #A0A0A0;
+  background-color: #a0a0a0;
   color: #fff;
   display: flex;
   flex-direction: column;
